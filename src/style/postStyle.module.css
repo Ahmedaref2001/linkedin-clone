@@ -1,0 +1,51 @@
+.post_box{
+    border:1px solid #bcbaba;
+    background-color:white;
+}
+.post_box .user_img{
+    width:50px;
+    heigth:50px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.post_box .user_name{
+    font-weight: 500;
+}
+.post_box .user_email,.post_box .user_name{
+    max-width:100px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+.post_box .user_email,.post_box .post_date{
+    font-size:13px;
+}
+.post_box .more_icon_box{
+    width:30px;
+    height: 30px;
+    border-radius: 50%;
+    cursor: pointer;
+    margin-top:-10px
+}
+.post_box .more_icon_box:hover{
+    background-color:#ebe8e8
+}
+.post_box .more_icon_box .more_icon{
+    font-size:25px;
+}
+.post_box .post_img img{
+    max-height:400px;
+    min-height:300px;
+}
+.post_box .Interactions span{
+    font-size:14px;
+}
+.post_box .list_item span{
+color:#6c757d;
+}
+.post_box .list_item:hover{
+    background-color:#ebe8e8
+}
+.post_box .list_item:hover span{
+    color:#0d6efd;
+}

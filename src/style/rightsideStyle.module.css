@@ -1,0 +1,7 @@
+.right_side{
+    position: sticky;
+    top: 80px;
+}
+.pages,.box_img{
+    border:1px solid #bcbaba;
+}

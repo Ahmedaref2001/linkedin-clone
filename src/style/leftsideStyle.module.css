@@ -1,0 +1,43 @@
+.left_side{
+    position: sticky;
+    top: 80px;
+}
+.all_actions,.user_info{
+    border:1px solid #bcbaba;
+}
+.img_box{
+    height: 120px;
+}
+.bg_img{
+    height: 60px;
+    background-image:url("../assets/images/icons/card-bg.svg");
+    background-size: cover;
+}
+.img_box .add_photo_icon{
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    background-color: white;
+    cursor: pointer;
+}
+.img_box .add_photo_icon img{
+    width:45px
+}
+.connection_box,.items_box{
+    cursor: pointer;
+}
+.connection_box p,.items_box p{
+font-size:14px;
+}
+.connection_box:hover,.items_box:hover{
+    background-color:#eee;
+}
+.list_actions li a,.discover_actions a{
+    color: #494d53;
+}
+.list_actions li:hover a ,.discover_actions:hover a{
+    color: #0d6efd;
+}
+.list_actions li:hover,.discover_actions:hover{
+    background-color:#eee;
+}
